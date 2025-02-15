@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .Nbtn{
-    @apply bg-[#1E1E1E] text-white rounded-full shadow-md hover:bg-white hover:text-black hover:shadow-black duration-300;
+    @apply  text-white rounded-full shadow-md hover:bg-white hover:text-black hover:shadow-black duration-300;
 }
 .headFont{
      font-family: "Space Grotesk", serif;

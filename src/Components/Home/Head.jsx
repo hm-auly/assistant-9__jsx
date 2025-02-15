@@ -7,7 +7,12 @@ function Head() {
         {
             img: "/Images/hs1.svg",
             cardTitle: "Bottega",
-            cardDes: "The lorem ipsum is, in .svprinting, a series of meaningless words used temporarily to calibrate a layout."
+            cardDes: "The lorem ipsum is, in .svprinting, a series of meaningless words used temporarily to calibrate a layout.",
+            imgs: [
+                { img2: "/Images/hs1.svg" },
+                { img2: "/Images/hs2.svg" },
+                { img2: "/Images/hs3.svg" },
+            ]
         },
         {
             img: "/Images/hs2.svg",
@@ -24,13 +29,23 @@ function Head() {
     ];
 
     // slider img fun
+    // const [curent, setcurent] = useState(0)
+    // const sliderimg = imgs[curent]
+    // const hendclick = () => {
+    //     setcurent((prv) => (
+    //         prv === imgs.length - 1 ? 0 : prv + 1
+    //     ))
+    // }
+
     const [curent, setcurent] = useState(0)
-    const sliderimg = imgs[curent]
+    const sliderimg = HeadCardInfo.imgs[curent]
     const hendclick = () => {
         setcurent((prv) => (
             prv === imgs.length - 1 ? 0 : prv + 1
         ))
     }
+
+
 
 
     return (
