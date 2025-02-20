@@ -163,7 +163,7 @@ function Cardhome() {
     ]
   
   return (
-    <section className=''>
+    <section className='pb-6 lg:w-[1440px]'>
       <div className=' px-5 '>
       <div className='px-2 text-2xl py-5'>
         <HeaderText head="The latest trends" />

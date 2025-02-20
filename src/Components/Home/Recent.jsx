@@ -24,7 +24,7 @@ function Recent() {
             starimg: "/Images/ster1.svg",
             date: `${new Date().toLocaleDateString()}`,
             des2: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
-            des3: "The lorem ipsum is, in printing. The lorem ipsum is, in printing, ",
+            des3: "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout. ",
             img1: "/Images/R4.png",
             img2: "/Images/R5.png",
             img3: "/Images/R6.png",
@@ -100,4 +100,4 @@ function Recent() {
     )
 }
 
-export default Recent
+export default Recent;

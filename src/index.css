@@ -12,3 +12,12 @@
 .fontAll{
     font-family: "Space Grotesk", serif;
 }
+.wii{
+    @apply lg:w-[1440px] w-full
+}
+
+body{
+    *{
+        
+    }
+}

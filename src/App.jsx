@@ -1,27 +1,31 @@
 
-import './App.css'
-import MyNavber from './Components/Common/Navber';
-import Cardhome from './Components/Home/Cardhome';
-import Hero from './Components/Home/Hero';
-import Feedback from './Components/Home/Feedback';
-import Recent from './Components/Home/Recent';
-import Footer from './Components/Common/Footer';
-import Navlink from './Components/Common/Navlink';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SearchBar from "./SearchBar/SearchBar";
+import MyNavber from "./Components/Common/Navber";
+import Restaurants from "./Components/All/Restaurants";
+import Restaurant from "./Components/Home/Restaurant";
 
 function App() {
   return (
-    <>
-      <MyNavber />
-      <Navlink />
-      <Hero />
-      <Cardhome />
-      <Feedback />
-      <Recent />
-      <Footer />
-  
-    </>
-  )
+    <Router>
+      {/* <SearchBar /> */}
+      {/* <MyNavber /> */}
+       <Routes>
+
+          <Route path="" element={<MyNavber />} >
+          <Route path="/" element={<Restaurants />} />
+          <Route path="/All" element={<Restaurant />} />
+          </Route>
+
+          {/* <Route path="/" element={<Restaurants />} />
+          <Route path="/All" element={<Restaurant />} /> */}
+        
+          
+          
+      
+       </Routes> 
+    </Router>
+  );
 }
 
-export default App
+export default App;

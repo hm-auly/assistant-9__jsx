@@ -1,16 +1,17 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Navlink() {
     const liniInfo = [
         {
             img: "/Images/ni1.svg",
             title: "All",
-            linkadd: "#"
+            linkadd: "/All"
         },
         {
             img: "/Images/ni2.svg",
             title: "Restaurants",
-            linkadd: "#"
+            linkadd: "/Home"
         },
         {
             img: "/Images/ni3.svg",
@@ -69,11 +70,11 @@ function Navlink() {
   return (
     <section className='py-3'>
         <div className='flex gap-10 md:gap-12 justify-center items-center overflow-auto'>
-            {liniInfo.map(({img, title}, i) => (
+            {liniInfo.map(({img, title, linkadd}, i) => (
                 <div key={i}  className={` ${open === i ? "text-[#1677BD] font-[600] border-b-2 border-b-[#1677BD]" :"text-[#AFAFAF]"}`}>
                     <div className='flex flex-col justify-center items-center gap-1'>
-                        <img className={``} src={img} alt="" />
-                        <p onClick={() => setopen(i)} className={`text-[8px] md:text-[16px]  ${open === i ? "text-[#1677BD] font-[600] border-b-2 border-b-[#1677BD]" :"text-[#AFAFAF]"}`}>{title}</p>
+                        <img  src={img} alt="" />
+                        <Link to={linkadd} onClick={() => setopen(i)} className={`text-[8px] md:text-[16px] cursor-pointer  ${open === i ? "text-[#1677BD] font-[600] border-b-2 border-b-[#1677BD]" :"text-[#AFAFAF]"}`}>{title}</Link>
                     </div>
                 </div>
             ))}
