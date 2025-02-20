@@ -81,7 +81,7 @@ const SearchBar = ({ bisi, notbisi }) => {
               <p className='text-[#7A7A7A]'>Singapour</p>
             </div>
             <div className='pr-1'>
-              <div className='bg-[#1677BD] w-11 h-11 rounded-full text-white flex items-center justify-center'><button onClick={notbisi}>X</button> </div>
+              <div className='bg-[#1677BD] w-11 h-11 rounded-full text-white flex items-center justify-center'><button onClick={notbisi}><i class="fa-solid fa-xmark"></i></button> </div>
             </div>
           </div>
 
