@@ -198,9 +198,9 @@ function Hero() {
   }
 
   return (
-    <section className='py-5'>
-      <div className='md:w-[1320px] md:h-[488px] rounded-[9px] bg-[#1677BD] mx-auto py-5'>
-        <div className='md:w-[1298px] md:h-[469px] mx-auto px-3 py-2'>
+    <section className='py-5 '>
+      <div className='px-5 lg::w-[1320px] lg:h-[488px] w-full h-auto rounded-[9px] bg-[#1677BD] mx-auto py-5'>
+        <div className='lg:w-[1298px] lg:h-[469px] mx-auto px-3 py-2'>
          <div className='px-5 text-white font-[400] text-xl'>
          <HeaderText  head="Find the best restaurant ratings below" />
          </div>
@@ -209,12 +209,12 @@ function Hero() {
               <button onClick={hendpprv}><i class="fa-solid fa-arrow-left text-xl"></i></button>
             </div>
 
-            <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-5 gap-4 justify-items-center'>
+            <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 mt-5 gap-4 justify-items-center'>
 
               {info.cardInfo1.map(({ img, cardTitle, cardDes,sterimg1,sterimg2, sterimg3, sterimg4, sterimg5 }, i) => (
-                <div className='hover:shadow-lg duration-300 hover:shadow-gray-100 w-[285px] h-[363px] bg-white rounded-xl'>
+                <div className='hover:shadow-lg duration-300 hover:shadow-gray-100 lg:w-[285px] lg:h-[363px] bg-white rounded-xl'>
                   <div>
-                    <img src={img} alt="" />
+                    <img className='w-full' src={img} alt="" />
                   </div>
                   <div className='px-3 py-3'>
                     <h6>{cardTitle}</h6>

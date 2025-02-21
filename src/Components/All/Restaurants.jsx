@@ -6,6 +6,7 @@ import Recent from '../Home/Recent';
 import Footer from '../Common/Footer';
 import Restaurant from '../Home/Restaurant';
 import Navlink from '../Common/Navlink';
+import MyHero from '../BellaItalia/Hero';
 
 function Restaurants() {
   return (
@@ -17,6 +18,7 @@ function Restaurants() {
             <Feedback />
             <Recent />
             <Footer />
+            <MyHero />
         </div>
     </section>
   )

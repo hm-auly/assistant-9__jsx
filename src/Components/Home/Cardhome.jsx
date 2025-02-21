@@ -163,12 +163,12 @@ function Cardhome() {
     ]
   
   return (
-    <section className='pb-6 lg:w-[1440px]'>
+    <section className='pb-6 lg:w-[1440px]  mx-auto'>
       <div className=' px-5 '>
       <div className='px-2 text-2xl py-5'>
         <HeaderText head="The latest trends" />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:w-[1345px] mx-auto place-items-center  '>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-4 gap-2 lg:w-[1345px] w-full h-auto mx-auto place-items-center  '>
      
            {cardInfo.map((items, i) => (
             <div key={i} className='bg-[#F8F8F8] pb-2 rounded-md '>

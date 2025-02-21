@@ -52,7 +52,7 @@ function Recent() {
                 <div className='text-3xl pt-8'>
                     <HeaderText head="Recents avtivities" />
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-5 place-content-center'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-5 '>
                     {RecentInfo.map((items, i) => (
                         <div key={i} className='md:max-w-[457px] h-auto bg-[#F8F8F8] px-3 pr-3 py-3'>
                             <div className='flex flex-col gap-5'>

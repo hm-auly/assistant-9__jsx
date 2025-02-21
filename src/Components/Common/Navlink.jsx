@@ -21,7 +21,7 @@ function Navlink() {
         {
             img: "/Images/ni4.svg",
             title: "Home services",
-            linkadd: "#"
+            linkadd: "/BellatalialAll"
         },
         {
             img: "/Images/ni5.svg",
