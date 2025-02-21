@@ -65,7 +65,7 @@ function MyHero() {
             ))}
           </div>
           <div className=''>
-          <div className=' absolute bottom-[-60px] right-1/2 flex items-center justify-center  '>
+          <div className=' absolute bottom-[-60px] right-1/2 transform translate-x-1/2  '>
               <img className='w-full ' src="/sLogo.svg" alt="" />
             </div>
           </div>
