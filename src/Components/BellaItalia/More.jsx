@@ -43,8 +43,8 @@ function More() {
         },
     ]
   return (
-    <section className='max-w-[1440px] mx-auto'>
-        <div className='flex justify-between items-center max-w-[1120px] mx-auto'>
+    <section className='max-w-[1440px] mx-auto py-8 border-b-2'>
+        <div className='flex flex-col md:flex-row justify-between items-center max-w-[1120px] mx-auto'>
             <div className=''>
                 <div className='pb-5'>
                     <h1 className='text-[34px] leading-[42px] font-[800]'>More informations</h1>
