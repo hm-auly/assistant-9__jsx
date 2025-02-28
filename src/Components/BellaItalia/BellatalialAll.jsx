@@ -3,6 +3,7 @@ import MyHero from './Hero'
 import Discover from './Discover';
 import More from './More';
 import Overall from './Overall';
+import Card2 from './Card2';
 
 function BellatalialAll() {
   return (
@@ -11,6 +12,7 @@ function BellatalialAll() {
         <Discover />
         <More />
         <Overall />
+        <Card2 />
     </section>
   )
 }
