@@ -60,8 +60,8 @@ function Discover() {
 
 
     return (
-        <section className={`${open === true ? "bg-[#10101094]" : "bg-white"} px-5 py-5 pt-20 `}>
-            <div className='md:pl-28'>
+        <section className={`max-w-[1055px] mx-auto ${open === true ? "bg-[#10101094]" : "bg-white"} px-5 py-5 pt-20 `}>
+            <div className=''>
                 <h1 className='font-[600] text-[34px]'>Discover our magnificent place in photos</h1>
                 <p className='text-[#5E5E5E] max-w-2xl'>The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing.</p>
             </div>

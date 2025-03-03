@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@heroui/react";
+import AlsoCard from './AlsoCard';
+import Footer2 from './Footer2';
 
 function Card2() {
     const [bg, setbg] = useState(false)
@@ -105,9 +107,9 @@ function Card2() {
 
     ]
     return (
-        <section className='px-5'>
-            <div>
-                <div className='flex gap-5 max-w-[1055px] mx-auto py-7'>
+        <section className='px-5 max-w-[1440px]'>
+            <div >
+                <div className='flex  gap-5 max-w-[1055px] mx-auto py-7'>
                     <div>
                         <Dropdown>
                             <DropdownTrigger>
@@ -241,6 +243,13 @@ function Card2() {
                     ))}
                 <div className='text-center py-5'>
                     <button className='bg-[#1677BD] Nbtn text-white py-2 px-4 rounded-full'>Show more reviews</button>
+                </div>
+                <div>
+                {/* AlsoCard section */}
+                    <AlsoCard />
+
+                {/* Footer section  */}
+                 <Footer2 />
                 </div>
                 </div>
 

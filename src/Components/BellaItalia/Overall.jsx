@@ -10,8 +10,8 @@ function Overall() {
         }
     ]
     return (
-        <section className='max-w-[1440px] px-5 border-b-2 border-[#DCDCDC]'>
-            <section className='  max-w-[1120px] mx-auto py-10'>
+        <section className='max-w-[1440px] px-5'>
+            <section className=' border-b-2 border-[#DCDCDC]  max-w-[1055px] mx-auto py-10'>
                 <div className='flex flex-col md:flex-row max-w-[930px] justify-between gap-5'>
                     <div>
                         {overallInfo.map((item, i) => (
