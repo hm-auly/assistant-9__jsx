@@ -20,8 +20,7 @@ const SearchBar = ({ bisi, notbisi }) => {
     home: "/",
     about: "/about",
     restaurant: "/All ",
-
-
+    bellaltalia: "/BellatalialAll",
     restaurants: "/contact",
     services: "/services",
   };

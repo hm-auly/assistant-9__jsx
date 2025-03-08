@@ -5,6 +5,7 @@ import MyNavber from "./Components/Common/Navber";
 import Restaurants from "./Components/All/Restaurants";
 import Restaurant from "./Components/Home/Restaurant";
 import BellatalialAll from "./Components/BellaItalia/BellatalialAll";
+import Errorlpage from "./Error/Errorlpage";
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
           <Route path="/" element={<Restaurants />} />
           <Route path="/All" element={<Restaurant />} />
           <Route path="/BellatalialAll" element={<BellatalialAll />} />
+          <Route path="/BellatalialAll" element={<BellatalialAll />} />
+          <Route path="*" element={<Errorlpage />} />
           </Route>
 
-          {/* <Route path="/" element={<Restaurants />} />
-          <Route path="/All" element={<Restaurant />} /> */}
+         
         
           
           

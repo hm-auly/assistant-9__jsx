@@ -11,57 +11,57 @@ function Navlink() {
         {
             img: "/Images/ni2.svg",
             title: "Restaurants",
-            linkadd: "/Home"
+            linkadd: ""
         },
         {
             img: "/Images/ni3.svg",
             title: "Hotels",
-            linkadd: "#"
+            linkadd: "/BellatalialAll"
         },
         {
             img: "/Images/ni4.svg",
             title: "Home services",
-            linkadd: "/BellatalialAll"
+             linkadd: "/BellatalialAll"
         },
         {
             img: "/Images/ni5.svg",
             title: "Shopping",
-            linkadd: "#"
+            linkadd: "ee"
         },
         {
             img: "/Images/ni6.svg",
             title: "Car location",
-            linkadd: "#"
+            linkadd: "aa"
         },
         {
             img: "/Images/ni7.svg",
             title: "Beauty & Spa",
-            linkadd: "#"
+            linkadd: "aa"
         },
         {
             img: "/Images/ni8.svg",
             title: "Park",
-            linkadd: "#"
+            linkadd: "aa"
         },
         {
             img: "/Images/ni9.svg",
             title: "museum",
-            linkadd: "#"
+            linkadd: "aaa"
         },
         {
             img: "/Images/ni10.svg",
             title: "Car wash",
-            linkadd: "#"
+            linkadd: "aaa"
         },
         {
             img: "/Images/ni11.svg",
             title: "Bars",
-            linkadd: "#"
+            linkadd: "aaa"
         },
         {
             img: "/Images/ni12.svg",
             title: "Gyms",
-            linkadd: "#"
+            linkadd: "aaa"
         },
     ]
 
