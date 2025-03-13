@@ -18,7 +18,7 @@ function Restaurants() {
             <Feedback />
             <Recent />
             <Footer />
-            <MyHero />
+            
         </div>
     </section>
   )
